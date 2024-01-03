@@ -1,0 +1,51 @@
+//1
+var soucet = 3 + 5;
+console.log("Součet: " + soucet);
+//2
+var rozdil = 8 - 3;
+console.log("Rozdíl: " + rozdil);
+//3
+var soucin = 4 * 6;
+console.log("Součin: " + soucin);
+//4
+var podil = 10 / 2;
+console.log("Podíl: " + podil);
+//5
+var prvniPole = [1, 2, 3];
+var druhePole = [4, 5, 6];
+var spojenaPole = prvniPole.concat(druhePole);
+console.log("Spojené pole: " + spojenaPole);
+//6
+var cisla = [1, 2, 3, 4, 5];
+console.log("Pole čísel: " + cisla);
+//7
+var prvniPole = [5, 8, 12];
+var druhePole = [2, 4, 6];
+
+var rozdilPoli = [];
+for (var i = 0; i < prvniPole.length; i++) {
+    rozdilPoli[i] = prvniPole[i] - druhePole[i];
+}
+
+console.log("Rozdíl polí: " + rozdilPoli);
+//8
+var pole1 = [2, 4, 6];
+var pole2 = [3, 2, 1];
+
+var soucinPoli = [];
+for (var i = 0; i < pole1.length; i++) {
+    soucinPoli[i] = pole1[i] * pole2[i];
+}
+
+console.log("Součin polí: " + soucinPoli);
+//9
+var prvniRetezec = "Ahoj, ";
+var druhyRetezec = "světe!";
+
+var spojenyRetezec = prvniRetazec + druhyRetazec;
+console.log(spojenyRetazec);
+//10
+var text = "JavaScript";
+for (var i = 0; i < text.length; i++) {
+    console.log(text[i]);
+}
